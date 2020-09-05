@@ -1,0 +1,86 @@
+/* ELEMENTS */
+
+body {
+  background-color: #393b44;
+  background-image: url(images/woodBG.jpg);
+}
+
+/* CLASSES */
+
+#button12{
+  color: #f4f6ff;
+  background-color: #41444b;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  margin-top: 35px;
+  margin-right: 350px;
+  opacity: 0.8;
+  padding: 20px;
+}
+
+#button12:hover {
+  background-color: #0f3460;
+  color: #ffff;
+  cursor: pointer;
+}
+
+#button24{
+  color: #f4f6ff;
+  background-color: #41444b;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  margin-top: 35px;
+  opacity: 0.8;
+  padding: 20px;
+}
+
+#button24:hover {
+  background-color: #0f3460;
+  color: #ffff;
+  cursor: pointer;
+}
+
+
+
+.top-container {
+  height: 50px;
+  text-align: center;
+  width: auto;
+}
+
+
+.middle-container {
+    height: 100px;;
+    width: auto;
+  }
+
+ /* ID'S */ 
+  
+  #clock {
+    background-color: #41444b;
+    border-radius: 12px;
+    color: #f4f6ff;
+    display: block;
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    margin: 150px auto;
+    opacity: 0.8;
+    padding-top: 5px;
+    width: 50%;
+  }
+
+  #date { 
+    background-color: #41444b;
+    border-radius: 12px;
+    color: #f4f6ff;
+    font-family: 'Courgette', sans-serif;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    opacity: 0.8;
+    width: 40%;
+}
